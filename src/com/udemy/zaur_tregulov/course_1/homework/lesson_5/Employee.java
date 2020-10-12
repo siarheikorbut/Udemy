@@ -28,7 +28,7 @@ public class Employee {
 
     void salaryUp() {
         double newSalary = salary * 2;
-        System.out.printf("ID работника: %d\nИмя: %s\nФамилия: %s\nВозраст: %d\nЗаработная плата: %.2f\nОтдел: %s\n\nНовая заработная плата: %.2f\n\n", id, name, surname, age, salary, department, newSalary);
+        System.out.printf("ID работника: %d\nИмя: %s\nФамилия: %s\nВозраст: %d\nОтдел: %s\nЗаработная плата: %.2f\nНовая заработная плата: %.2f\n\n", id, name, surname, age, department, salary, newSalary);
     }
 }
 

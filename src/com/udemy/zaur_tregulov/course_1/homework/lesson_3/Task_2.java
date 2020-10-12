@@ -1,5 +1,12 @@
 package com.udemy.zaur_tregulov.course_1.homework.lesson_3;
 
+/**
+ * @author Siarhei Korbut
+ * Вычислить чему равны выражения:
+ * a = a-- - --a + ++a + a++ + a; где а = 5
+ * b = ++b - b++ + ++b - --b; где b = 8
+ */
+
 public class Task_2 {
     public static void main(String[] args) {
         //Вычисление выражений.
