@@ -58,13 +58,16 @@ class StudentTest {
                 2004);
         Student student3 = new Student();
 
-        System.out.printf("Номер студенческого билета: %d\n" +
-                "Имя: %s\n" +
-                "Фамилия: %s\n" +
-                "Год обучения: %d\n" +
-                "Средняя оценка по математике: %.2f\n" +
-                "Средняя оценка по экономике: %.2f\n" +
-                "Средняя оценка по иностранному языку: %.2f\n\n",
+        System.out.printf("""
+                        Номер студенческого билета: %d
+                        Имя: %s
+                        Фамилия: %s
+                        Год обучения: %d
+                        Средняя оценка по математике: %.2f
+                        Средняя оценка по экономике: %.2f
+                        Средняя оценка по иностранному языку: %.2f
+
+                        """,
                 student1.studentID,
                 student1.name,
                 student1.surname,
@@ -72,13 +75,16 @@ class StudentTest {
                 student1.mathsAverageScore,
                 student1.economicAverageScore,
                 student1.foreignLanguageAverageMark);
-        System.out.printf("Номер студенческого билета: %d\n" +
-                "Имя: %s\n" +
-                "Фамилия: %s\n" +
-                "Год обучения: %d\n" +
-                "Средняя оценка по математике: %.2f\n" +
-                "Средняя оценка по экономике: %.2f\n" +
-                "Средняя оценка по иностранному языку: %.2f\n\n",
+        System.out.printf("""
+                        Номер студенческого билета: %d
+                        Имя: %s
+                        Фамилия: %s
+                        Год обучения: %d
+                        Средняя оценка по математике: %.2f
+                        Средняя оценка по экономике: %.2f
+                        Средняя оценка по иностранному языку: %.2f
+
+                        """,
                 student2.studentID,
                 student2.name,
                 student2.surname,
@@ -86,13 +92,16 @@ class StudentTest {
                 student2.mathsAverageScore,
                 student2.economicAverageScore,
                 student2.foreignLanguageAverageMark);
-        System.out.printf("Номер студенческого билета: %d\n" +
-                "Имя: %s\n" +
-                "Фамилия: %s\n" +
-                "Год обучения: %d\n" +
-                "Средняя оценка по математике: %.2f\n" +
-                "Средняя оценка по экономике: %.2f\n" +
-                "Средняя оценка по иностранному языку: %.2f\n\n",
+        System.out.printf("""
+                        Номер студенческого билета: %d
+                        Имя: %s
+                        Фамилия: %s
+                        Год обучения: %d
+                        Средняя оценка по математике: %.2f
+                        Средняя оценка по экономике: %.2f
+                        Средняя оценка по иностранному языку: %.2f
+
+                        """,
                 student3.studentID,
                 student3.name,
                 student3.surname,
