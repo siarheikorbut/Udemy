@@ -3,7 +3,7 @@ package com.udemy.zaur_tregulov.course_1.homework.lesson_9.lesson_9_1;
 /**
  * @author Siarhei Korbut
  * 1. Написать программу в которой будет создано 8 обьектов, но к последней строке
- *    метода main останется всего два.
+ * метода main останется всего два.
  */
 
 public class Task_1 {

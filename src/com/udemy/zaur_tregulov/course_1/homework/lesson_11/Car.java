@@ -54,7 +54,7 @@ class CarTest {
                         Цвет - %s
                         Двигатель - %s
                         Колличество дверей - %d
-                        
+                                                
                         """,
                 car1.color,
                 car1.engine,

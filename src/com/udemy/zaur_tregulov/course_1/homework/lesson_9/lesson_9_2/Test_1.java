@@ -7,8 +7,9 @@ package com.udemy.zaur_tregulov.course_1.homework.lesson_9.lesson_9_2;
 
 public class Test_1 {
     int a = 1;
-//    static int a = 2; Невозможно создать переменную с именем a.
-    void abc(int a){
+
+    //    static int a = 2; Невозможно создать переменную с именем a.
+    void abc(int a) {
         System.out.println(a);
         System.out.println(this.a);
     }
