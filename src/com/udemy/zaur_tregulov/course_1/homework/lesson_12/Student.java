@@ -34,7 +34,7 @@ class StudentTest {
 
     //Сравнение объектов класса Student.
     void comparisonStudents(Student st1, Student st2) {
-        if (st1.equals(st2)) {
+        if (st1.name.equals(st2.name) && st1.course == st2.course && st1.averageGrade == st2.averageGrade) {
             System.out.println("Студент " + st1.name + " равен студенту " + st2.name);
         } else {
             System.out.println("Студент " + st1.name + " не равен студенту " + st2.name);
