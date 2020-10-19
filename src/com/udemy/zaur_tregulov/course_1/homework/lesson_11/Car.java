@@ -50,25 +50,26 @@ class CarTest {
 
         System.out.printf(
                 """
-                        Информация о первом автомобиле:
-                                                
+                        Информация о первом автомобиле:                                                
                         Цвет - %s
                         Двигатель - %s
-                        Колличество дверей - %d""",
+                        Колличество дверей - %d
+                        
+                        """,
                 car1.color,
                 car1.engine,
                 car1.doorCount
         );
         System.out.printf(
                 """
-                        Информация о втором автомобиле:
-                                                
+                        Информация о втором автомобиле:                       
                         Цвет - %s
                         Двигатель - %s
-                        Колличество дверей - %d""",
-                car1.color,
-                car1.engine,
-                car1.doorCount
+                        Колличество дверей - %d
+                        """,
+                car2.color,
+                car2.engine,
+                car2.doorCount
         );
     }
 }
