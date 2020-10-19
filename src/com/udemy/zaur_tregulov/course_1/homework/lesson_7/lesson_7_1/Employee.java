@@ -52,8 +52,6 @@ public class Employee {
     public void printSalary() {
         System.out.println("Заработная плата: " + salary);
     }
-
-    Employee employee3 = new Employee(750.53); //Создание данного обьекта возможно только внутри класса.
 }
 
 class EmployeeTest_1 {
