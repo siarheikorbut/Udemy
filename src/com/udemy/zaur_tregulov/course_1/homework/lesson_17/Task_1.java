@@ -17,7 +17,9 @@ public class Task_1 {
 
     //Сравнение значений двух объектов класса StringBuilder.
     public static boolean equality(StringBuilder sb1, StringBuilder sb2) {
+
         boolean result = true;
+
         if (sb1.length() == sb2.length()) {
             for (int i = 0; i < sb1.length(); i++) {
                 if (sb1.charAt(i) != sb2.charAt(i)) {
@@ -32,6 +34,7 @@ public class Task_1 {
     }
 
     public static void main(String[] args) throws IOException {
+
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         StringBuilder sb1 = new StringBuilder(reader.readLine());
