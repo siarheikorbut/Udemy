@@ -34,7 +34,6 @@ public class Task_1 {
     }
 
     public static void main(String[] args) throws IOException {
-
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         StringBuilder sb1 = new StringBuilder(reader.readLine());
