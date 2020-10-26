@@ -11,6 +11,8 @@ import java.util.Arrays;
  */
 
 public class Task_1 {
+
+    //Сортировка одномерного массива по возрастанию.
     public static void sorting(int[] array) {
         Arrays.sort(array);
     }
