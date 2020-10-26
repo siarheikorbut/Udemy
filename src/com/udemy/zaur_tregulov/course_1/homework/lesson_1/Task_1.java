@@ -14,6 +14,7 @@ package com.udemy.zaur_tregulov.course_1.homework.lesson_1;
 
 public class Task_1 {
     public static void main(String[] args) {
+
         //Вывод текста в консоль с соблюдением необходимых отступов.
         System.out.println("                  РУБАИ");
         System.out.println("Много лет размышлял я над жизнью земной.");
