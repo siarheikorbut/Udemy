@@ -41,3 +41,4 @@ public class Task_2 {
         showArray(array);
     }
 }
+
