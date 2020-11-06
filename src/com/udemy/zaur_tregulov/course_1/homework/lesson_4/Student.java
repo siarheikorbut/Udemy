@@ -1,4 +1,4 @@
-package com.udemy.zaur_tregulov.course_1.homework.lesson_4.Task_1;
+package com.udemy.zaur_tregulov.course_1.homework.lesson_4;
 
 /**
  * @author Siarhei Korbut
