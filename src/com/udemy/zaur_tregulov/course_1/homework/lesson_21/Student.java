@@ -44,7 +44,7 @@ public class Student {
     public void setCourse(int course) {
         if (course >= 1 && course < 5) {
             this.course = course;
-        } else this.course = course + 1;
+        } else ++course;
     }
 
     public void setGrade(int grade) {
