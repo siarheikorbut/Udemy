@@ -9,6 +9,7 @@ package com.udemy.zaur_tregulov.course_1.homework.lesson_13;
  */
 
 public class Month {
+
     //Количество дней в месяце.
     static void dayOfMonthCount(int monthNumber) {
         switch (monthNumber) {
