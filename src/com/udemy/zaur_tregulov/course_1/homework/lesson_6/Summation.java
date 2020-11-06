@@ -43,6 +43,7 @@ class SummationTest {
         int d = Integer.parseInt(reader.readLine());
 
         Summation summa = new Summation();
+
         System.out.println("Сумма всех чисе: " + summa.sum());
         System.out.println("Сумма всех чисе: " + summa.sum(a));
         System.out.println("Сумма всех чисе: " + summa.sum(a, b));

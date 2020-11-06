@@ -20,7 +20,15 @@ public class Student {
     double economicAverageScore;
     double foreignLanguageAverageMark;
 
-    public Student(int studentID, String name, String surname, int yearOfStudy, double mathsAverageScore, double economicAverageScore, double foreignLanguageAverageMark) {
+    public Student(
+            int studentID,
+            String name,
+            String surname,
+            int yearOfStudy,
+            double mathsAverageScore,
+            double economicAverageScore,
+            double foreignLanguageAverageMark
+    ) {
         this.studentID = studentID;
         this.name = name;
         this.surname = surname;
