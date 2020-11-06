@@ -29,14 +29,57 @@ public class BankAccount {
 
 
     public void popolnenieScheta(double summaPopolneniya) {
-        System.out.printf("ID клиента: %d\nИмя: %s\nФамилия: %s\nБаланс: %.2f\nСумма пополнения: %.2f\nБаланс после поплнения: %.2f\n\n", id, name, surname, balance, summaPopolneniya, balance + summaPopolneniya);
+        System.out.printf("""
+                        ID клиента: %d
+                        Имя: %s
+                        Фамилия: %s
+                        Баланс: %.2f
+                        Сумма пополнения: %.2f
+                        Баланс после поплнения: %.2f
+
+                        """,
+                id,
+                name,
+                surname,
+                balance,
+                summaPopolneniya,
+                balance + summaPopolneniya
+        );
     }
 
     public void snytieSoScheta(double summaSnytiya) {
         if (balance - summaSnytiya < 0) {
-            System.out.printf("ID клиента: %d\nИмя: %s\nФамилия: %s\nБаланс: %.2f\nСумма снятия: %.2f\n\nНедостаточно средств!\n\n", id, name, surname, balance, summaSnytiya);
+            System.out.printf("""
+                            ID клиента: %d
+                            Имя: %s
+                            Фамилия: %s
+                            Баланс: %.2f
+                            Сумма снятия: %.2f
+
+                            Недостаточно средств!
+
+                            """,
+                    id,
+                    name,
+                    surname,
+                    balance,
+                    summaSnytiya);
         } else {
-            System.out.printf("ID клиента: %d\nИмя: %s\nФамилия: %s\nБаланс: %.2f\nСумма снятия: %.2f\nБаланс после снятия: %.2f\n\n", id, name, surname, balance, summaSnytiya, balance - summaSnytiya);
+            System.out.printf("""
+                            ID клиента: %d
+                            Имя: %s
+                            Фамилия: %s
+                            Баланс: %.2f
+                            Сумма снятия: %.2f
+                            Баланс после снятия: %.2f
+
+                            """,
+                    id,
+                    name,
+                    surname,
+                    balance, summaSnytiya,
+                    balance - summaSnytiya
+            );
         }
     }
 }

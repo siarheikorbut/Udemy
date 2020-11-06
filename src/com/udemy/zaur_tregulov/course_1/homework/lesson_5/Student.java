@@ -19,7 +19,15 @@ public class Student {
     double economicAverageScore;
     double foreignLanguageAverageMark;
 
-    public Student(int studentID, String name, String surname, int yearOfStudy, double mathsAverageScore, double economicAverageScore, double foreignLanguageAverageMark) {
+    public Student(
+            int studentID,
+            String name,
+            String surname,
+            int yearOfStudy,
+            double mathsAverageScore,
+            double economicAverageScore,
+            double foreignLanguageAverageMark
+    ) {
         this.studentID = studentID;
         this.name = name;
         this.surname = surname;
@@ -32,14 +40,40 @@ public class Student {
 
 class StudentTest {
     void sumAverageMark(Student student) {
-        double result = Math.round(((student.mathsAverageScore + student.economicAverageScore + student.foreignLanguageAverageMark) / 3) * 100.0) / 100.0;
+        double result = Math.round(((
+                student.mathsAverageScore +
+                        student.economicAverageScore +
+                        student.foreignLanguageAverageMark) / 3) * 100.0) / 100.0;
         System.out.println(student.name + " " + student.surname + ": средняя арифметическая оценка = " + result);
     }
 
     public static void main(String[] args) {
-        Student student1 = new Student(1, "Иван", "Иванов", 2000, 6.4, 7.3, 8.5);
-        Student student2 = new Student(2, "Петр", "Петров", 2000, 9.0, 8.9, 10.0);
-        Student student3 = new Student(3, "Сидор", "Сидоров", 2000, 5.6, 4.8, 5.9);
+        Student student1 = new Student(
+                1,
+                "Иван",
+                "Иванов",
+                2000,
+                6.4,
+                7.3,
+                8.5
+        );
+        Student student2 = new Student(
+                2,
+                "Петр",
+                "Петров",
+                2000,
+                9.0,
+                8.9,
+                10.0);
+        Student student3 = new Student(
+                3,
+                "Сидор",
+                "Сидоров",
+                2000,
+                5.6,
+                4.8,
+                5.9
+        );
 
         StudentTest st = new StudentTest();
         st.sumAverageMark(student1);

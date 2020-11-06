@@ -29,14 +29,45 @@ public class Employee {
 
     void salaryUp() {
         double newSalary = salary * 2;
-        System.out.printf("ID работника: %d\nИмя: %s\nФамилия: %s\nВозраст: %d\nОтдел: %s\nЗаработная плата: %.2f\nНовая заработная плата: %.2f\n\n", id, name, surname, age, department, salary, newSalary);
+        System.out.printf("""
+                        ID работника: %d
+                        Имя: %s
+                        Фамилия: %s
+                        Возраст: %d
+                        Отдел: %s
+                        Заработная плата: %.2f
+                        Новая заработная плата: %.2f
+
+                        """,
+                id,
+                name,
+                surname,
+                age,
+                department,
+                salary,
+                newSalary
+        );
     }
 }
 
 class EmployeeTest {
     public static void main(String[] args) {
-        Employee employee1 = new Employee(1, "Иван", "Иванов", 34, 1000, "Java разработка");
-        Employee employee2 = new Employee(2, "Сергей", "Сергеев", 23, 700, "Тестирование");
+        Employee employee1 = new Employee(
+                1,
+                "Иван",
+                "Иванов",
+                34,
+                1000,
+                "Java разработка"
+        );
+        Employee employee2 = new Employee(
+                2,
+                "Сергей",
+                "Сергеев",
+                23,
+                700,
+                "Тестирование"
+        );
 
         employee1.salaryUp();
         employee2.salaryUp();
