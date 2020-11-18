@@ -24,3 +24,4 @@ public class Task_1 {
         System.out.println("                                 О. Хайям");
     }
 }
+
