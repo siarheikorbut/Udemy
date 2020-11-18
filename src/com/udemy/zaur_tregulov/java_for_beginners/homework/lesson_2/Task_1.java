@@ -67,4 +67,3 @@ public class Task_1 {
         System.out.println("Значения переменных типа char: " + h1 + ", " + h2 + ", " + h3);
     }
 }
-
