@@ -92,6 +92,5 @@ class Test {
 
         Cat cat = new Cat("Mura");
         cat.sleep();
-
     }
 }
