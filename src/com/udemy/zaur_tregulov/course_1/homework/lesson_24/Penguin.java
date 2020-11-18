@@ -1,4 +1,4 @@
-package com.udemy.zaur_tregulov.course_1.homework.lesson_23;
+package com.udemy.zaur_tregulov.course_1.homework.lesson_24;
 
 public class Penguin extends Bird {
     public Penguin(String name) {
