@@ -14,20 +14,20 @@ package com.udemy.zaur_tregulov.java_for_beginners.homework.lesson_24;
 
 public class Task_1 {
     public static void main(String[] args) {
-        Animal a1 = new Lion("Кузя");
-        Animal a2 = new Penguin("Шарик");
-        Animal a3 = new Xiphophorus("Жорж");
+        Animal a1 = new Lion("Лев Кузя");
+        Animal a2 = new Penguin("Пингвин Шарик");
+        Animal a3 = new Xiphophorus("Меченосец Жорж");
 
-        Bird b1 = new Penguin("Шарик");
-        Fish f1 = new Xiphophorus("Жорж");
-        Mammal m1 = new Lion("Кузя");
+        Bird b1 = new Penguin("Пингвин Шарик");
+        Fish f1 = new Xiphophorus("Меченосец Жорж");
+        Mammal m1 = new Lion("Лев Кузя");
 
-        Lion l1 = new Lion("Кузя");
-        Penguin p1 = new Penguin("Шарик");
-        Xiphophorus x1 = new Xiphophorus("Жорж");
+        Lion l1 = new Lion("Лев Кузя");
+        Penguin p1 = new Penguin("Пингвин Шарик");
+        Xiphophorus x1 = new Xiphophorus("Меченосец Жорж");
 
-        Speakable s1 = new Lion("Кузя");
-        Speakable s2 = new Penguin("Шарик");
+        Speakable s1 = new Lion("Лев Кузя");
+        Speakable s2 = new Penguin("Пингвин Шарик");
 
         Speakable[] arraySpeakable = {s1, s2, b1, m1, l1, p1};
         Animal[] arrayAnimals = {a1, a2, a3, b1, f1, m1, l1, p1, x1};
@@ -48,9 +48,8 @@ public class Task_1 {
                 lion.sleep();
                 lion.eat();
             }
+            System.out.println("------------------------------------------------------");
         }
-
-        System.out.println("------------------------------------------------");
 
         for (Animal a : arrayAnimals) {
             if (a instanceof Lion) {
@@ -74,6 +73,7 @@ public class Task_1 {
                 xiphophorus.swim();
                 xiphophorus.sleep();
             }
+            System.out.println("------------------------------------------------------");
         }
     }
 }
